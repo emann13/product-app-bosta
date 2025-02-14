@@ -1,0 +1,10 @@
+.menu-title {
+    color: white;
+    font-size: 1rem;
+    transition: color ease-out 0.3s;
+  }
+  
+  .menu-title:hover {
+    color:#E30613 ; 
+  }
+  

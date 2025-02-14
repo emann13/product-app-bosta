@@ -1,0 +1,75 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  min-width: 98%;
+  box-shadow: 0px 0px 5px #e4959a;
+  border-radius: 0 0 15px 15px; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  z-index: 1000; 
+}
+
+body {
+  padding-top: 70px; }
+
+.menu-items {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* IMDb Logo Styling */
+.bosta-link {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  text-decoration: none;
+}
+
+.bosta-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #E30613;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.bosta-products {
+  font-size: 1.25rem;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+.cart-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.carts-count {
+  margin-left: 1px;
+  color: #E30613;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+@media (min-width: 640px) {
+  .hidden-sm {
+      display: inline;
+  }
+}

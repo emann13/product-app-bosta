@@ -1,0 +1,38 @@
+
+.load-more-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .load-more-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #E30613;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .load-more-container button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .dropdown {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .dropdown:hover {
+    border-color: #555;
+  }

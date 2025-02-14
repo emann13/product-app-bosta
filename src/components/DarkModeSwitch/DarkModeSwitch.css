@@ -1,0 +1,10 @@
+.theme-icon {
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .theme-icon:hover {
+    color: #ffbf00; 
+  }
+  

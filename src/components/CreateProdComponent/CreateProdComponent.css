@@ -1,0 +1,33 @@
+.createProd-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.createProd-container.sticky {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.createProd-input {
+    width: 50%;
+    border-radius: 25px;
+    transition: box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.createProd-input:hover {
+    background-color: rgba(243, 204, 245, 0.95);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.createProd-input:focus {
+    outline: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}

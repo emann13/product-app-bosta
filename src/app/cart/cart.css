@@ -1,0 +1,112 @@
+.carts-page {
+    background-color: white;
+    padding: 20px;
+    color: #000;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  
+  .carts-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cart-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cart-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+  }
+  
+  .cart-info {
+    margin-left: 20px;
+  }
+  
+  .cart-title {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+  }
+  
+  .remove-cart {
+    color: #ff4d4d;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .remove-cart:hover {
+    color: #ff1a1a;
+  }
+  
+  .custom-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  .cart-summary {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+  
+  .cart-summary h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  
+  .summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+  }
+  
+  .checkout-btn {
+    background-color: #E30613;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    width: 20%;
+    /* height: 40px; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: "ubuntu";
+    transition: background 0.3s ease;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #c20510;
+  }
+  
