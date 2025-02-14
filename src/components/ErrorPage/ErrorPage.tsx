@@ -5,7 +5,7 @@ import SignalWifiOffIcon from "@mui/icons-material/SignalWifiOff";
 import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./errorPage.css";
+import "./ErrorPage.css";
 
 interface ErrorPageProps {
   errorType: "connection" | "generic";

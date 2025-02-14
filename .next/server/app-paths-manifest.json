@@ -1,7 +1,1 @@
-{
-  "/page": "app/page.js",
-  "/addProduct/page": "app/addProduct/page.js",
-  "/cart/page": "app/cart/page.js",
-  "/product/[id]/page": "app/product/[id]/page.js",
-  "/about/page": "app/about/page.js"
-}
+{}
