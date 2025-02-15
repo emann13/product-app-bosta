@@ -62,14 +62,14 @@ useEffect(() => {
     try {
       await addProduct(productData);
       toast.success("Product added successfully!");
-      // setProductData({
-      //   title: "",
-      //   category: "",
-      //   price: "",
-      //   stock: "",
-      //   description: "",
-      //   image: "",
-      // });
+      setStock(0);
+      setProductData({
+        title: "",
+        category: "",
+        price: 0,
+        description: "",
+        image: "",
+      });
     } catch (error) {
       toast.error("Error adding product. Please try again.");
       console.error("Error adding product:", error);

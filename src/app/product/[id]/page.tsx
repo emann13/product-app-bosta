@@ -110,7 +110,7 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                   rating={Number(product.rating.rate)}
                   starRatedColor="#ffd700"
                   numberOfStars={5}
-                  starDimension="24px"
+                  starDimension="21px"
                   starSpacing="2px"
                   name="rating"
                 />
